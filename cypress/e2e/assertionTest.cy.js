@@ -11,4 +11,6 @@ it('Cypress Assertion Demo', () => {
         .should('be.visible')
         .and('be.enabled')
 
+    expect(true).to.be.true
+
 })
